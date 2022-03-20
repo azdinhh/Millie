@@ -4,11 +4,11 @@ const { EmojiAPI } = require("emoji-api")
 const emoji = new EmojiAPI()
 
 let handler = async (m, { conn, args, usedPrefix, command, isPrems }) => {
-  let er = `Example:
+  let er = `مثال:
 *${usedPrefix}emo(space)ap(space)❤️*
 *${usedPrefix}emo ap ❤️*
 
-┌〔 Opsi 〕
+┌〔 نوع الايموجات 〕
 ├ ap = apple
 ├ fa = facebook
 ├ go = google
