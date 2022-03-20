@@ -14,8 +14,8 @@ const defaultMenu = {
   body: '├ %cmd',
   footer: '└────\n',
   after: `
-   ᴹᴵᴸᴸᴵᴱ
-   ᴹᴼᴰᵁᴸᴬᴿ ᵂᴴᴬᵀᔆᴬᴾᴾ ᴮᴼᵀ
+   يحيى
+   بوت ذكي و كذا
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
