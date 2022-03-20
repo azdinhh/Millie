@@ -22,7 +22,7 @@ let handler = async (m, { conn, isOwner, text, isAdmin }) => {
     throw `number does not exist in the database!`
   }
 }
-handler.help = ['unban']
+handler.help = ['unban|تشغيل']
 handler.tags = ['owner', 'group']
 handler.command = /^unban(chat)?$/i
 
