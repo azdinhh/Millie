@@ -10,21 +10,21 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     }
     if (typeof global.db.data.users[who] == "undefined") {
         global.db.data.users[who] = {
-            exp: 0,
-            limit: 10,
-            lastclaim: 0,
-            registered: false,
-            name: conn.getName(m.sender),
-            age: -1,
-            regTime: -1,
-            afk: -1,
-            afkReason: '',
-            banned: false,
-            level: 0,
-            call: 0,
-            role: 'Warrior V',
-            autolevelup: false,
-            pc: 0,
+            النقاط: 0,
+            الحدود: 10,
+            آخر جائزة: 0,
+            التسجيل: false,
+            الاسم: conn.getName(m.sender),
+            العمر: -1,
+            تايم: -1,
+            فهم: -1,
+            سبب: '',
+            ممنوع: false,
+            لفل: 0,
+            الاتصال: 0,
+            الدور: 'Warrior V',
+            لفل تلقائي: false,
+            حاسوب: 0,
         }
     }
     let txt = text.replace('@' + who.split`@`[0], '').trim()
