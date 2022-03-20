@@ -181,86 +181,86 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
             {
               "rows": [
                 {
-                  "title": `يحيى`,
+                  "title": `🐦يحيى`,
                   "description": "اصل البوت",
                   "rowId": ".git"
                 }, {
-                  "title": "الالعاب",
+                  "title": "🛎️الالعاب",
                   "description": "",
                   "rowId": ".? game"
 
                 }, {
-                  "title": "النقاط",
+                  "title": "🥀النقاط",
                   "description": "",
                   "rowId": ".? xp"
 
                 },  {
-                  "title": "صانع الفيديوهات",
+                  "title": "🌸صانع الفيديوهات",
                   "description": "",
                   "rowId": ".? videomaker"
 
                 },{
-                  "title": "ستيكر",
+                  "title": "🌺ستيكر",
                   "description": "",
                   "rowId": ".? stiker"
                 }, { 
-                "title": "انمي",
+                "title": "💮انمي",
                 "description": "",
                 "rowId": ".? anime"
               },  {
-                  "title": "مدري هاهاها",
+                  "title": "👍مدري هاهاها",
                   "description": "",
                   "rowId": ".? quote"
                 }, {
-                  "title": "ادمن",
+                  "title": "💜ادمن",
                   "description": "",
                   "rowId": ".? admin"
                 }, {
-                  "title": "المجموعة",
+                  "title": "🌼المجموعة",
                   "description": "",
                   "rowId": ".? grup"
                 }, {
-                  "title": "الترقية",
+                  "title": "☘️الترقية",
                   "description": "",
                   "rowId": ".? premium"
                 }, {
-                  "title": "الانترنت",
+                  "title": "🕷️الانترنت",
                   "description": "",
                   "rowId": ".? internet"
                 }, {
-                  "title": "الهاكر",
+                  "title": "🦥الهاكر",
                   "description": "",
                   "rowId": ".? anonymous"
                 }, {
-                  "title": "سحر تصميم",
+                  "title": "🦋سحر تصميم",
                   "description": "",
                   "rowId": ".? magicshell"
                 }, {
-                  "title": "صانع اللوغو",
+                  "title": "🐾صانع اللوغو",
                   "description": "",
                   "rowId": ".? nulis"
                 }, {
-                  "title": "التحميلات",
+                  "title": "🌵التحميلات",
                   "description": "",
                   "rowId": ".? downloader"
                 }, {
-                  "title": "الادوات",
+                  "title": "🐲الادوات",
                   "description": "",
                   "rowId": ".? tools"
                 }, {
-                  "title": "مغير الصوت",
+                  "title": "🐥مغير الصوت",
                   "description": "",
                   "rowId": `.? audio`
                 }, {
-                  "title": "متعة و كذا",
+                  "title": "🐉متعة و كذا",
                   "description": "",
                   "rowId": ".? fun"
                 }, {
-                  "title": "اساسيات",
+                  "title": "🦅اساسيات",
                   "description": "",
                   "rowId": ".? database"
                 },{
-                  "title": "صاحب البوت",
+                  "title": "🐋صاحب البوت",
                   "description": "",
                   "rowId": ".? owner"
                 }
