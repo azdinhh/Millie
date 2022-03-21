@@ -6,8 +6,8 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 const defaultMenu = {
     before: `╭────────────────╮
-        ✪  *يحيى بوت* ✪           
-╰────────────────╯
+                ✪  *يحيى بوت* ✪           
+             ╰────────────────╯
        
   `.trimStart(),
   header: '┌─〔 %category 〕',
@@ -164,13 +164,13 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         "listMessage": {
           "title": `HI,
 ╭━━━━━━ᆫ ᴍᴇɴᴜ ᄀ━━━━━━
-┃ ⎆  Oi ${ucapan()}
-┃ ⎆  *الاسم* : ${name}
-┃ ⎆  *بوت*   : 👑dᥱᥲdᥣყ࿇OTAKU🔱悪
-┃ ⎆  *المالك* :  ايانوكوجي يحيى
-┃ ⎆  *الاختصاصات* : متعدد
-┃ ⎆  *الاسبوع* : ${week},
-┃ ⎆  *اليوم* : ${date},
+  Oi ${ucapan(┃ ⎆
+  *الاسم* : ${name}
+  *بوت*   : 👑dᥱᥲdᥣყ࿇OTAKU🔱悪┃ ⎆
+  *المالك* :  ايانوكوجي يحيى┃ ⎆
+  *الاختصاصات* : متعدد┃ ⎆
+  *الاسبوع* : ${week},┃ ⎆
+  *اليوم* : ${date},┃ ⎆
 ╰━━━━━━━━━━━━━━━━━━━━━━━ \n`
           
            .trim(),
@@ -276,28 +276,28 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     }
     // use this if you use business whatsapp
     //   throw `
-    // ┌〔 LIST MENU 〕
-    // ├ ${_p + command} all
-    // ├ ${_p + command} game
-    // ├ ${_p + command} xp
-    // ├ ${_p + command} stiker
+    // ┌〔 قائمة الاوامر 〕
+    // ├ ${_p + command} الكل
+    // ├ ${_p + command} الالعاب
+    // ├ ${_p + command} النقاط
+    // ├ ${_p + command} ستيكر
     // ├ ${_p + command} quotes
-    // ├ ${_p + command} admin
-    // ├ ${_p + command} group
-    // ├ ${_p + command} premium
-    // ├ ${_p + command} internet
-    // ├ ${_p + command} anonymous
-    // ├ ${_p + command} nulis
-    // ├ ${_p + command} downloader
-    // ├ ${_p + command} tools
-    // ├ ${_p + command} fun
-    // ├ ${_p + command} database
-    // ├ ${_p + command} vote
-    // ├ ${_p + command} quran
-    // ├ ${_p + command} audio
-    // ├ ${_p + command} jadibot
-    // ├ ${_p + command} info
-    // ├ ${_p + command} owner
+    // ├ ${_p + command} ادمن
+    // ├ ${_p + command} المجموعة
+    // ├ ${_p + command} الاشتراك
+    // ├ ${_p + command} النت
+    // ├ ${_p + command} الهاكر
+    // ├ ${_p + command} نوليس
+    // ├ ${_p + command} التحميل
+    // ├ ${_p + command} الادوات
+    // ├ ${_p + command} المتعة
+    // ├ ${_p + command} داتا
+    // ├ ${_p + command} التصويت
+    // ├ ${_p + command} القران
+    // ├ ${_p + command} الصوت
+    // ├ ${_p + command} نسخ البوت
+    // ├ ${_p + command} المعلومات
+    // ├ ${_p + command} المالك
     // └────  
     //     `.trim()
     let groups = {}
@@ -349,13 +349,13 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send2ButtonImg(m.chat, await (await fetch("https://raw.githubusercontent.com/Neeraj-x0/Millie/main/Millie/mills.jpeg")).buffer(), text.trim(), '© ᴍɪʟʟɪᴇ ©', 'Owner Bot', '.owner', 'All Commands', '.listt', m)
+    await conn.send2ButtonImg(m.chat, await (await fetch("https://raw.githubusercontent.com/Neeraj-x0/Millie/main/Millie/mills.jpeg")).buffer(), text.trim(), '© يحيى ©', '.المالك', 'الكل', '.listt', m)
   } catch (e) {
-    conn.reply(m.chat, 'Sorry, Try Again', m)
+    conn.reply(m.chat, 'اسف, حاول مجددا', m)
     throw e
   }
 }
-handler.help = ['menu', 'help','list','millie', '?']
+handler.help = ['menu', 'help','القائمة','yahya', '?']
 handler.tags = ['main']
 handler.command = /^(list|menu|help|millie|bot|\?)$/i
 handler.owner = false
