@@ -164,7 +164,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         "listMessage": {
           "title": `HI,
 ╭━━━━━━ᆫ ᴍᴇɴᴜ ᄀ━━━━━━
-  Oi ${ucapan(┃ ⎆
+  اوهايو ${ucapan(┃ ⎆
   *الاسم* : ${name}
   *بوت*   : 👑dᥱᥲdᥣყ࿇OTAKU🔱悪┃ ⎆
   *المالك* :  ايانوكوجي يحيى┃ ⎆
