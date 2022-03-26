@@ -6,7 +6,7 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 const defaultMenu = {
     before: `╭────────────────╮
-                ✪  *يحيى بوت* ✪           
+                ✪  *المطور الغربي* ✪           
              ╰────────────────╯
        
   `.trimStart(),
@@ -14,7 +14,7 @@ const defaultMenu = {
   body: '├ %cmd',
   footer: '└────\n',
   after: `
-   يحيى
+   الغربي
    بوت ذكي و كذا
 `,
 }
@@ -166,8 +166,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ╭━━━━━━ᆫ ᴍᴇɴᴜ ᄀ━━━━━━
   اوهايو ${ucapan(┃ ⎆
   *الاسم* : ${name}
-  *بوت*   : 👑dᥱᥲdᥣყ࿇OTAKU🔱悪┃ ⎆
-  *المالك* :  ايانوكوجي يحيى┃ ⎆
+  *بوت*   : 【👑ᎷᏫᎡᏫᏨᏨᏫ Ᏸ ᏫᎿ🔱悪】
+  *المالك* :   الغربي┃ ⎆
   *الاختصاصات* : متعدد┃ ⎆
   *الاسبوع* : ${week},┃ ⎆
   *اليوم* : ${date},┃ ⎆
@@ -181,7 +181,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
             {
               "rows": [
                 {
-                  "title": `🐦يحيى`,
+                  "title": `🐦الغربي`,
                   "description": "اصل البوت",
                   "rowId": ".git"
                 }, {
