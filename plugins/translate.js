@@ -5,9 +5,8 @@ const tld = 'en'
 let handler = async (m, { args, usedPrefix, command }) => {
     let err = `
 EXAMPLE:
-${usedPrefix + command} <lang> [text]
+${usedPrefix + command} <اللغة> [text]
 ${usedPrefix + command} id your messages
-
 List of supported languages: https://cloud.google.com/translate/docs/languages
 `.trim()
 
