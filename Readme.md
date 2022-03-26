@@ -2,7 +2,7 @@
 # *بوت الغربي واتساب*
 <div align="center">
   
-  [![GHRBI Whatsapp Bot](https://readme-typing-svg.herokuapp.com?font=times-bold-italic&color=%23F7F7F7&duration=4862&center=true&vCenter=true&lines=WELCOME+TO+MILLIE+WHATSAPP+BOT)](https://github.com/Neeraj-x0/Millie)
+  [![GHRBI Whatsapp Bot](https://readme-typing-svg.herokuapp.com?font=times-bold-italic&color=%23F7F7F7&duration=4862&center=true&vCenter=true&lines=WELCOME+TO+GHRBI+WHATSAPP+BOT)](https://github.com/Neeraj-x0/Millie)
 </div>
 <div align="center">
   <img border-radius: 15px src="https://user-images.githubusercontent.com/102433984/160260595-4a9f34a3-120e-40cc-9cfa-9d4f736e0ab6.jpg" width="200" height="200"/>
