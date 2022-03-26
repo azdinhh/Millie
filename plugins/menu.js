@@ -6,16 +6,16 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 const defaultMenu = {
     before: `╭────────────────╮
-          ✪  *ᴍɪʟʟɪᴇ* ✪           
-╰────────────────╯
+                ✪  *مطور الغربي* ✪           
+             ╰────────────────╯
        
   `.trimStart(),
   header: '┌─〔 %category 〕',
   body: '├ %cmd',
   footer: '└────\n',
   after: `
-   ᴹᴵᴸᴸᴵᴱ
-   ᴹᴼᴰᵁᴸᴬᴿ ᵂᴴᴬᵀᔆᴬᴾᴾ ᴮᴼᵀ
+    الغربي
+   بوت ذكي و كذا
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
@@ -24,27 +24,27 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   let arrayMenu = ['git', 'game', 'xp', 'stiker','quotes', 'admin', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools','anime','videomaker', 'fun', 'database', 'audio','info','owner']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
-    'main': 'Main',
-    'game': 'Game',
-    'xp': 'Exp & Limit',
-    'anime': 'Anime',
-    'sticker': 'Stiker',
-    'shell': 'Magic Shells',
-    'quotes': 'Quotes',
-    'admin': `Admin ${global.opts['restrict'] ? '' : '(Disabled)'}`,
-    'group': 'Grup',
-    'premium': 'Premium',
-    'internet': 'Internet',
-    'anonymous': 'Anonymous Chat',
-    'nulis': 'MagerNulis & Logo',
-    'downloader': 'Downloader',
-    'tools': 'Tools',
-    'Video Maker':'videomaker',
-    'fun': 'Fun',
-    'database': 'Database',
-    'vote': 'Voting',
-    'audio': 'Voice Changer',
-    'info': 'Info',
+    'main🐋': 'Main',
+    'game🐋': 'Game',
+    'xp🐋': 'Exp & Limit',
+    'anime🐋': 'Anime',
+    'sticker🐋': 'Stiker',
+    'shell🐋': 'Magic Shells',
+    'quotes🐋': 'Quotes',
+    'admin🐋': `Admin ${global.opts['restrict'] ? '' : '(Disabled)'}`,
+    'group🐋': 'Grup',
+    'premium🐋': 'Premium',
+    'internet🐋': 'Internet',
+    'anonymous🐋': 'Anonymous Chat',
+    'nulis🐋': 'MagerNulis & Logo',
+    'downloader🐋': 'Downloader',
+    'tools🐋': 'Tools',
+    'Video Maker🐋':'videomaker',
+    'fun🐋': 'Fun',
+    'database🐋': 'Database',
+    'vote🐋': 'Voting',
+    'audio🐋': 'Voice Changer',
+    'info🐋': 'Info',
     '': 'No Category',
   }
   if (teks == 'game') tags = {
@@ -164,103 +164,103 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         "listMessage": {
           "title": `HI,
 ╭━━━━━━ᆫ ᴍᴇɴᴜ ᄀ━━━━━━
-┃ ⎆  Oi ${ucapan()}
-┃ ⎆  *NAME* : ${name}
-┃ ⎆  *BOT*   : ᴍɪʟʟɪᴇ
-┃ ⎆  *OWNER* :  ɴᴇᴇʀᴀᴊ
-┃ ⎆  *PREFIX* : ᴍᴜʟᴛɪ ᴘʀᴇғɪx 
-┃ ⎆  *WEEK* : ${week},
-┃ ⎆  *DATE* : ${date},
+  اوهايو ${ucapan(┃ ⎆
+  *الاسم* : ${name}
+  *بوت*   : 👑dᥱᥲdᥣყ࿇OTAKU🔱悪┃ ⎆
+  *المالك* :   الغربي┃ ⎆
+  *الاختصاصات* : متعدد┃ ⎆
+  *الاسبوع* : ${week},┃ ⎆
+  *اليوم* : ${date},┃ ⎆
 ╰━━━━━━━━━━━━━━━━━━━━━━━ \n`
           
            .trim(),
-           "description": "*DON'T SPAM*",
-          "buttonText": "Click  Here",
+           "description": "*ممنوع السبام*",
+          "buttonText":  "اضغط هنا",
           "listType": "SINGLE_SELECT",
           "sections": [
             {
               "rows": [
                 {
-                  "title": `ᴍɪʟʟɪᴇ`,
-                  "description": "sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ",
+                  "title": `🐦يحيى`,
+                  "description": "اصل البوت",
                   "rowId": ".git"
                 }, {
-                  "title": "𝗚𝗮𝗺𝗲𝘀",
+                  "title": "🛎️الالعاب",
                   "description": "",
                   "rowId": ".? game"
 
                 }, {
-                  "title": "𝗫𝗣",
+                  "title": "🥀النقاط",
                   "description": "",
                   "rowId": ".? xp"
 
                 },  {
-                  "title": "𝗩𝗶𝗱𝗲𝗼 𝗠𝗮𝗸𝗲𝗿",
+                  "title": "🌸صانع الفيديوهات",
                   "description": "",
                   "rowId": ".? videomaker"
 
                 },{
-                  "title": "𝗦𝘁𝗶𝗰𝗸𝗲𝗿",
+                  "title": "🌺ستيكر",
                   "description": "",
                   "rowId": ".? stiker"
                 }, { 
-                "title": "𝗔𝗻𝗶𝗺𝗲",
+                "title": "💮انمي",
                 "description": "",
                 "rowId": ".? anime"
               },  {
-                  "title": "𝗤𝘂𝗼𝘁𝗲𝘀",
+                  "title": "👍مدري هاهاها",
                   "description": "",
                   "rowId": ".? quote"
                 }, {
-                  "title": "𝗔𝗱𝗺𝗶𝗻",
+                  "title": "💜ادمن",
                   "description": "",
                   "rowId": ".? admin"
                 }, {
-                  "title": "𝗚𝗿𝘂𝗽",
+                  "title": "🌼المجموعة",
                   "description": "",
                   "rowId": ".? grup"
                 }, {
-                  "title": "𝗣𝗿𝗲𝗺𝗶𝘂𝗺",
+                  "title": "☘️الترقية",
                   "description": "",
                   "rowId": ".? premium"
                 }, {
-                  "title": "𝗜𝗻𝘁𝗲𝗿𝗻𝗲𝘁",
+                  "title": "🕷️الانترنت",
                   "description": "",
                   "rowId": ".? internet"
                 }, {
-                  "title": "𝗔𝗻𝗼𝗻𝘆𝗺𝗼𝘂𝘀",
+                  "title": "🦥الهاكر",
                   "description": "",
                   "rowId": ".? anonymous"
                 }, {
-                  "title": "𝗠𝗮𝗴𝗶𝗰 𝗦𝗵𝗲𝗹𝗹",
+                  "title": "🦋سحر تصميم",
                   "description": "",
                   "rowId": ".? magicshell"
                 }, {
-                  "title": "𝗡𝘂𝗹𝗶𝘀 & 𝗟𝗼𝗴𝗼",
+                  "title": "🐾صانع اللوغو",
                   "description": "",
                   "rowId": ".? nulis"
                 }, {
-                  "title": "𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗿",
+                  "title": "🌵التحميلات",
                   "description": "",
                   "rowId": ".? downloader"
                 }, {
-                  "title": "𝗧𝗼𝗼𝗹𝘀",
+                  "title": "🐲الادوات",
                   "description": "",
                   "rowId": ".? tools"
                 }, {
-                  "title": "𝗩𝗼𝗶𝗰𝗲 𝗖𝗵𝗮𝗻𝗴𝗲𝗿",
+                  "title": "🐥مغير الصوت",
                   "description": "",
                   "rowId": `.? audio`
                 }, {
-                  "title": "𝗙𝘂𝗻",
+                  "title": "🐉متعة و كذا",
                   "description": "",
                   "rowId": ".? fun"
                 }, {
-                  "title": "𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲",
+                  "title": "🦅اساسيات",
                   "description": "",
                   "rowId": ".? database"
                 },{
-                  "title": "Owner",
+                  "title": "🐋صاحب البوت",
                   "description": "",
                   "rowId": ".? owner"
                 }
@@ -276,28 +276,28 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     }
     // use this if you use business whatsapp
     //   throw `
-    // ┌〔 LIST MENU 〕
-    // ├ ${_p + command} all
-    // ├ ${_p + command} game
-    // ├ ${_p + command} xp
-    // ├ ${_p + command} stiker
+    // ┌〔 قائمة الاوامر 〕
+    // ├ ${_p + command} الكل
+    // ├ ${_p + command} الالعاب
+    // ├ ${_p + command} النقاط
+    // ├ ${_p + command} ستيكر
     // ├ ${_p + command} quotes
-    // ├ ${_p + command} admin
-    // ├ ${_p + command} group
-    // ├ ${_p + command} premium
-    // ├ ${_p + command} internet
-    // ├ ${_p + command} anonymous
-    // ├ ${_p + command} nulis
-    // ├ ${_p + command} downloader
-    // ├ ${_p + command} tools
-    // ├ ${_p + command} fun
-    // ├ ${_p + command} database
-    // ├ ${_p + command} vote
-    // ├ ${_p + command} quran
-    // ├ ${_p + command} audio
-    // ├ ${_p + command} jadibot
-    // ├ ${_p + command} info
-    // ├ ${_p + command} owner
+    // ├ ${_p + command} ادمن
+    // ├ ${_p + command} المجموعة
+    // ├ ${_p + command} الاشتراك
+    // ├ ${_p + command} النت
+    // ├ ${_p + command} الهاكر
+    // ├ ${_p + command} نوليس
+    // ├ ${_p + command} التحميل
+    // ├ ${_p + command} الادوات
+    // ├ ${_p + command} المتعة
+    // ├ ${_p + command} داتا
+    // ├ ${_p + command} التصويت
+    // ├ ${_p + command} القران
+    // ├ ${_p + command} الصوت
+    // ├ ${_p + command} نسخ البوت
+    // ├ ${_p + command} المعلومات
+    // ├ ${_p + command} المالك
     // └────  
     //     `.trim()
     let groups = {}
@@ -349,13 +349,13 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send2ButtonImg(m.chat, await (await fetch("https://raw.githubusercontent.com/Neeraj-x0/Millie/main/Millie/mills.jpeg")).buffer(), text.trim(), '© ᴍɪʟʟɪᴇ ©', 'Owner Bot', '.owner', 'All Commands', '.listt', m)
+    await conn.send2ButtonImg(m.chat, await (await fetch("https://raw.githubusercontent.com/Neeraj-x0/Millie/main/Millie/mills.jpeg")).buffer(), text.trim(), '© يحيى ©', '.المالك', 'الكل', '.listt', m)
   } catch (e) {
-    conn.reply(m.chat, 'Sorry, Try Again', m)
+    conn.reply(m.chat, 'اسف, حاول مجددا', m)
     throw e
   }
 }
-handler.help = ['menu', 'help','list','millie', '?']
+handler.help = ['menu', 'help','القائمة','yahya', '?']
 handler.tags = ['main']
 handler.command = /^(list|menu|help|millie|bot|\?)$/i
 handler.owner = false
@@ -381,18 +381,18 @@ function clockString(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Kolkata').format('HH')
-  res = "Good Morning 🌄"
+  res = "صباحو 🌄"
   if (time >= 4) {
-    res = "Good Morning 🌞"
+    res = "الخير 🌞"
   }
   if (time > 10) {
-    res = "Good afternoon 🌅"
+    res = "مساء 🌅"
   }
   if (time >= 15) {
-    res = "Good Evening 🌆"
+    res = "الخير 🌆"
   }
   if (time >= 18) {
-    res = "Good Night 🌌"
+    res = "سير تنعس 🌌"
   }
   return res
 }
