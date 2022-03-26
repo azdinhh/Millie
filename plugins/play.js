@@ -24,11 +24,11 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
   } 
   let { dl_link, thumb, title, filesize, filesizeF } = yt
   await conn.send2ButtonImg(m.chat, await (await fetch(thumb)).buffer(), `
-*Title:* ${title}
-*Audio File Size:* ${filesizeF}
-*Video File Size:* ${yt2.filesizeF}
+*العنوان:* ${title}
+*حجم الصوت:* ${filesizeF}
+*حجم الفيديو:* ${yt2.filesizeF}
 *Play Doesnt Work ,In Disappearing mode*
-`.trim(), watermark, '🔊 ᴀᴜᴅɪᴏ', `.yta ${vid.url}`, '🎥 ᴠɪᴅᴇᴏ', `.ytv ${vid.url}`)
+`.trim(), watermark, '🔊 اوديو', `.yta ${vid.url}`, '🎥 فيديو', `.ytv ${vid.url}`)
 }
 handler.help = ['song','play','?'].map(v => v + ' <query>')
 handler.tags = ['downloader']
