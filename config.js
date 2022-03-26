@@ -1,5 +1,5 @@
 let fs = require('fs')
-global.owner = ['918113921898'] // Put your number here
+global.owner = ['212690762206'] // Put your number here
 global.mods =  JSON.parse(fs.readFileSync('./src/moderator.json'))// Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium users do not need a limit
 global.tod = JSON.parse(fs.readFileSync('./src/tod.json'))
@@ -32,30 +32,15 @@ global.APIKeys = { // The APIKey is here
 }
 
 // Sticker WM
-const spack = fs.readFileSync("lib/exif.json")
-const stickerpack = JSON.parse(spack)
-if (stickerpack.spackname == '') {
-  var sticker_name = '💋 ᴍɪʟʟɪᴇ 💋'
-} else {
-  var sticker_name = stickerpack.spackname
-}
-
-const file_exif = "lib/exif.json"
-fs.watchFile(file_exif, () => {
-  fs.unwatchFile(file_exif)
-  console.log(chalk.redBright("Update 'exif.json'"))
-  delete require.cache[file_exif]
-  require('./lib/exif.json')
-})
-
-global.packname = sticker_name
+global.packname = '🌹 بووووووت سيييي 🌹'
+global.author = 'YANOKUJI'
 
 
-global.wait = '_*Please Wait..*_'
-global.eror = '_*Server Error*_'
-global.fla = 'https://github.com/neera-j/Bot-Files/blob/main/images/millie.jpg'
+global.wait = '_*مهلا انتضر..*_'
+global.eror = '_*مشكل في سرفر :(*_'
+global.fla = 'https://wa.me/message/XPBNDMUVLQPOP1'
 
-global.watermark = '© ᴍɪʟʟɪᴇ'
+global.watermark = '© الغربي'
 
 global.multiplier = 69 // The higher it is, the harder it is to level up
 
