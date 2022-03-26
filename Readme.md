@@ -1,5 +1,5 @@
 
-# *بوت يحيى واتساب*
+# *بوت الغربي*
 <div align="center">
   
   [![Millie Whatsapp Bot](https://readme-typing-svg.herokuapp.com?font=times-bold-italic&color=%23F7F7F7&duration=4862&center=true&vCenter=true&lines=WELCOME+TO+MILLIE+WHATSAPP+BOT)](https://github.com/Neeraj-x0/Millie)
