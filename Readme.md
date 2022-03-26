@@ -15,7 +15,7 @@
   
 ## انضم لمجموعتي في الوتساب
 
-  [![join](https://github.com/Yahya910)](https://chat.whatsapp.com/CZjhxsXctdS1ItNxc60H2d) 
+  [![join](https://github.com/azdinhh/Millie.git)](https://chat.whatsapp.com/CZjhxsXctdS1ItNxc60H2d) 
  
 ## طريقة تركيب البوت
   
@@ -23,8 +23,8 @@
 
 ## `لتغيير الرقم و الكود`
 
-- رقم        [`CLICK HERE`](https://github.com/Neeraj-x0/Millie/blob/main/config.js#L2)
-- تاكود          [`Click Here`](https://github.com/Neeraj-x0/Millie/blob/main/session.data.json#L1)
+- رقم        [`CLICK HERE`](https://github.com/azdinhh/Millie.git)
+- تاكود          [`Click Here`](https://github.com/azdinhh/Millie.git)
 
 <div align="left">
 
