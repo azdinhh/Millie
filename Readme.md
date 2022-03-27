@@ -15,7 +15,7 @@
   
 ## انضم لمجموعتي في الوتساب
 
-  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png?size=1)](https://chat.whatsapp.com/CZjhxsXctdS1ItNxc60H2d) 
+  [![join](https://user-images.githubusercontent.com/102433984/160276505-8dedfc47-5f90-40ef-9c75-f8242efa6e9d.jpeg)](https://chat.whatsapp.com/CZjhxsXctdS1ItNxc60H2d) 
  
 ## قناة الغربي
   
