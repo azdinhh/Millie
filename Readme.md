@@ -19,7 +19,7 @@
  
 ## قناة الغربي
   
-  [![Watch Tutorial](https://img.youtube.com/vi/5ox6VPzVSKs/0.jpg)](https://www.youtube.com/watch?v=5ox6VPzVSKs)
+  [![Watch Tutorial](https://img.youtube.com/vi/5ox6VPzVSKs/0.jpg)](https://youtu.be/ZB_rPqEJBps)
 
 ## `لتغيير الرقم و الكود`
 
