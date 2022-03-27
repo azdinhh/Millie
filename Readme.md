@@ -8,7 +8,7 @@
   <img border-radius: 15px src="https://user-images.githubusercontent.com/102433984/160260595-4a9f34a3-120e-40cc-9cfa-9d4f736e0ab6.jpg" width="200" height="200"/>
 
 <p align="center">
-  <a href="https://instagram.com/_kopz__"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
+  <a href="https://instagram.com/azdi_n_1?=nametag"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
   <a href="https://wa.me/212641427490"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 <div align="center">
@@ -17,7 +17,7 @@
 
   [![join](https://github.com/azdinhh/Millie.git)](https://chat.whatsapp.com/CZjhxsXctdS1ItNxc60H2d) 
  
-## طريقة تركيب البوت
+## قناة الغربي
   
   [![Watch Tutorial](https://img.youtube.com/vi/5ox6VPzVSKs/0.jpg)](https://www.youtube.com/watch?v=5ox6VPzVSKs)
 
