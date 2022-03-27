@@ -15,7 +15,7 @@
   
 ## انضم لمجموعتي في الوتساب
 
-  [![join](https://github.com/azdinhh/Millie.git)](https://chat.whatsapp.com/CZjhxsXctdS1ItNxc60H2d) 
+  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png?size=1)](https://chat.whatsapp.com/CZjhxsXctdS1ItNxc60H2d) 
  
 ## قناة الغربي
   
